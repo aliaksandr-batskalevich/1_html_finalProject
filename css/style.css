@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1130px;
+    margin: auto;
+}
+
+body {
+    background-image: url("../images/imageBackgroundUp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstPage {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%);
+    height: 50vh;
+}
+
+.wrapperLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+}
+
+.logo img {
+    width: 180px;
+}
+
+
+
